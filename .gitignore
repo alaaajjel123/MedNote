@@ -1,0 +1,62 @@
+# ==============================
+# Ignore Rules
+# ==============================
+*.log
+*.pyc
+*.swp
+.DS_Store
+.idea/
+.vscode/
+.history
+.svn/
+migrate_working_dir/
+
+# ==============================
+# Flutter Frontend
+# ==============================
+frontend(flutter)/.dart_tool/
+frontend(flutter)/.flutter-plugins
+frontend(flutter)/.flutter-plugins-dependencies
+frontend(flutter)/.packages
+frontend(flutter)/.pub-cache/
+frontend(flutter)/.pub/
+frontend(flutter)/build/
+frontend(flutter)/doc/api/
+frontend(flutter)/ios/Flutter/.last_build_id
+
+# Android Studio Build Outputs
+frontend(flutter)/android/app/debug/
+frontend(flutter)/android/app/profile/
+frontend(flutter)/android/app/release/
+
+# Symbolication & Obfuscation
+frontend(flutter)/app.*.symbols
+frontend(flutter)/app.*.map.json
+
+# IntelliJ-related
+frontend(flutter)/*.iml
+frontend(flutter)/*.ipr
+frontend(flutter)/*.iws
+
+# ==============================
+# 🛠️ Node.js Backend
+# ==============================
+backend(node_js_express)/node_modules/
+backend(node_js_express)/package-lock.json
+backend(node_js_express)/yarn.lock
+backend(node_js_express)/.npm/
+backend(node_js_express)/.cache/
+backend(node_js_express)/.env  # Environment variables (if any)
+backend(node_js_express)/.next/ # If Next.js is used
+backend(node_js_express)/dist/  # If TypeScript compilation output
+
+# ==============================
+# ⚠️ Ignore System Files
+# ==============================
+*.class
+*.log
+*.swp
+.DS_Store
+*.bak
+*.tmp
+Thumbs.db
